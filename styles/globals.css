@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -39,4 +39,70 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+
+.demo-logo-vertical {
+  height: 32px;
+  margin: 16px;
+  padding: 10px;
+  background: rgba(219, 202, 202, 0.653);
+  border-radius: 6px;
+}
+
+/* Container for Tabs */
+.tabs-container {
+  padding: 24px;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Styling the tabs */
+.ant-tabs-nav {
+  margin-bottom: 16px;
+}
+
+/* Active Tab Styling */
+.ant-tabs-tab-active {
+  color: #1890ff !important;
+  font-weight: bold;
+}
+
+/* Styling the 'more' button container */
+.tabs-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+/* Styling the buttons inside the 'more' section */
+.tabs-buttons .ant-btn {
+  border-radius: 4px;
+}
+
+/* Styling the Tab content container */
+.ant-tabs-tabpane {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Table styling */
+.ant-table {
+  border-radius: 8px;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #f0f2f5;
+}
+
+.ant-table-tbody > tr > td {
+  padding: 12px 16px;
+  vertical-align: middle;
+}
+
+.ant-table-pagination {
+  margin-top: 16px;
 }
